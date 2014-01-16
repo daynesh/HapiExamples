@@ -1,0 +1,32 @@
+{
+    "name": "ProductsAPI",
+    "version": "0.0.1",
+    "description": "API for providing info about music instruments",
+    "main": "server",
+    "engines": {
+        "node": ">=0.10.5"
+    },
+    "dependencies": {
+        "hapi": "1.8.x",
+        "lout": "0.4.x",
+        "handlebars": "1.0.x"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Daynesh/HapiExamples.git"
+    },
+    "keywords": [
+        "hapi"
+    ],
+    "author": "Daynesh Mangal",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/Daynesh/HapiExamples/issues"
+    },
+    "homepage": "https://github.com/Daynesh/HapiExamples",
+    "private": "true"
+}
